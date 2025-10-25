@@ -1,4 +1,4 @@
-### COMANDI E REQUISITI DI INSTALLAZIONE (ESTRATTI DALLA GUIDA) ###
+### COMANDI E REQUISITI DI INSTALLAZIONE ###
 
 --- PC LOCALE (Linux/macOS) - CONFIGURAZIONE SSH/STEP ---
 
@@ -135,4 +135,5 @@ squeue -u mario_rossi
 sinfo
 
 # Per controllare la quota utilizzata e disponibile su Cineca
+
 cinQuota
