@@ -14,7 +14,7 @@ import torchvision.models as models
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu" #Use GPU if available
 STORY_FILE = 'story.txt' #Chose the file containing the story prompts, in this case the sd8.txt is located in the same directory as the script
 STYLE_PROMPT = ', cinematic photorealism, ultra detailed, sharp focus, coherent style, 8k, trending on artstation' #Prompt to add style to each image
-OUTPUT_DIR = 'generated_image	' #Output directory to save generated images and metrics
+OUTPUT_DIR = 'generated_image' #Output directory to save generated images and metrics
 BASE_SEED = 120 #You can chose any base seed you want
 NUM_IMAGES_TO_GENERATE = 5 #Number of images to generate based on the story prompts
 
