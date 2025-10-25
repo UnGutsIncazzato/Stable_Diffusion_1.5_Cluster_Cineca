@@ -14,7 +14,8 @@ L'uso di un ambiente High Performance Computing (HPC) come Leonardo è cruciale 
 | `Stable_Diffusion_1.5_CODE.py` | Lo script Python principale contenente la logica per caricare il modello Stable Diffusion e generare un'immagine dal prompt. |
 | `Stable_Diffusion_1.5_GENERATE.sh` | Lo script di lancio SLURM (`sbatch`) necessario per eseguire il codice sui nodi di calcolo di Leonardo, specificando risorse come GPU e tempo di esecuzione. |
 | `generated_image` | Esempi di immagini e risultati ottenuti dopo l'esecuzione del processo sul cluster. |
-| **`requirements.txt`** | (Da aggiungere) Elenco delle dipendenze Python necessarie per l'ambiente virtuale. |
+| `requirements.txt` | Elenco delle dipendenze Python necessarie per l'ambiente virtuale. |
+| `story.txt` | Storia utilizzata nell'esempio di "generated_image" |
 
 ## Panoramica del Flusso di Lavoro (Consultare la Guida Dettagliata)
 
