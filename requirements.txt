@@ -1,4 +1,5 @@
 ### COMANDI E REQUISITI DI INSTALLAZIONE ###
+### PER EVENTUALI PROBLEMI O CHIARIMENTI CONSULTARE LA GUIDA COMPLETA ###
 
 --- PC LOCALE (Linux/macOS) - CONFIGURAZIONE SSH/STEP ---
 
@@ -137,3 +138,4 @@ sinfo
 # Per controllare la quota utilizzata e disponibile su Cineca
 
 cinQuota
+
