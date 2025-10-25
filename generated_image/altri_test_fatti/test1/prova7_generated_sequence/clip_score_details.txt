@@ -1,0 +1,14 @@
+[1/10] File: image_00.png | Prompt: ""A beautiful princess sits by a fountain..." | CLIP Score: 0.3460
+[2/10] File: image_01.png | Prompt: ""The princess watches her golden ball fa..." | CLIP Score: 0.3123
+[3/10] File: image_02.png | Prompt: "forest well.", "An ugly, large-headed fr..." | CLIP Score: 0.2809
+[4/10] File: image_03.png | Prompt: "delighted princess picks up the golden b..." | CLIP Score: 0.2966
+[5/10] File: image_04.png | Prompt: "frog.", "The little frog is creeping, sp..." | CLIP Score: 0.2731
+[6/10] File: image_05.png | Prompt: "princess, seated at the royal dinner tab..." | CLIP Score: 0.2986
+[7/10] File: image_06.png | Prompt: ""The frog sits on the table beside the p..." | CLIP Score: 0.2501
+[8/10] File: image_07.png | Prompt: "king commands the reluctant princess to ..." | CLIP Score: 0.2501
+[9/10] File: image_08.png | Prompt: "princess throws the odious frog with all..." | CLIP Score: 0.2704
+[10/10] File: image_09.png | Prompt: "transformed into a handsome prince with ..." | CLIP Score: 0.2062
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.2784 (Basato su 10 risultati)
+======================================================================

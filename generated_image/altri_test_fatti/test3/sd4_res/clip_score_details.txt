@@ -1,0 +1,9 @@
+[1/5] File: image_00.png | Prompt: "A solitary, ancient wizard with a long g..." | CLIP Score: 0.4008
+[2/5] File: image_01.png | Prompt: "illuminated by a single flickering candl..." | CLIP Score: 0.2765
+[3/5] File: image_02.png | Prompt: "sharp, blue shadows across his wrinkled ..." | CLIP Score: 0.2210
+[4/5] File: image_03.png | Prompt: "golden eyes, its tail twitching with cur..." | CLIP Score: 0.2698
+[5/5] File: image_04.png | Prompt: "a gentle sigh, the wizard carefully puts..." | CLIP Score: 0.3169
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.2970 (Basato su 5 risultati)
+======================================================================

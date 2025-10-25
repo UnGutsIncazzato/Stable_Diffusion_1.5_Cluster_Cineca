@@ -1,0 +1,14 @@
+[1/10] File: image_00.png | Prompt: "In olden times when wishing still helped..." | CLIP Score: 0.2721
+[2/10] File: image_01.png | Prompt: "whose daughters were all beautiful, but ..." | CLIP Score: 0.3041
+[3/10] File: image_02.png | Prompt: "that the sun itself, which has seen so m..." | CLIP Score: 0.2557
+[4/10] File: image_03.png | Prompt: "it shone in her face.  Close by the king..." | CLIP Score: 0.2790
+[5/10] File: image_04.png | Prompt: "forest, and under an old lime-tree in th..." | CLIP Score: 0.2819
+[6/10] File: image_05.png | Prompt: "the day was very warm, the king's child ..." | CLIP Score: 0.2687
+[7/10] File: image_06.png | Prompt: "sat down by the side of the cool fountai..." | CLIP Score: 0.2487
+[8/10] File: image_07.png | Prompt: "took a golden ball, and threw it up on h..." | CLIP Score: 0.2032
+[9/10] File: image_08.png | Prompt: "ball was her favorite plaything...." | CLIP Score: 0.3038
+[10/10] File: image_09.png | Prompt: "Now it so happened that on one occasion ..." | CLIP Score: 0.2980
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.2715
+======================================================================

@@ -1,0 +1,5 @@
+[1/1] File: image_00.png | Prompt: "In olden times when wishing still helped..." | CLIP Score: 0.2353
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.2353 (Basato su 1 risultati)
+======================================================================

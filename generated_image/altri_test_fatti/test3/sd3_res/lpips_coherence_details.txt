@@ -1,0 +1,8 @@
+[Transizione 01] image_00.png -> image_01.png | LPIPS Distance: 0.6504
+[Transizione 02] image_01.png -> image_02.png | LPIPS Distance: 0.6949
+[Transizione 03] image_02.png -> image_03.png | LPIPS Distance: 0.6915
+[Transizione 04] image_03.png -> image_04.png | LPIPS Distance: 0.6233
+
+======================================================================
+DISTANZA LPIPS MEDIA (Coerenza Visiva): 0.6650 (Basata su 4 transizioni)
+======================================================================

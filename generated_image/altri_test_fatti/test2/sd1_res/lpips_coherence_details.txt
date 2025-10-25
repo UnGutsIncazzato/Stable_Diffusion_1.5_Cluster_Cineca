@@ -1,0 +1,23 @@
+[Transizione 01] image_00.png -> image_01.png | LPIPS Distance: 0.4230
+[Transizione 02] image_01.png -> image_02.png | LPIPS Distance: 0.4456
+[Transizione 03] image_02.png -> image_03.png | LPIPS Distance: 0.4262
+[Transizione 04] image_03.png -> image_04.png | LPIPS Distance: 0.4202
+[Transizione 05] image_04.png -> image_05.png | LPIPS Distance: 0.4688
+[Transizione 06] image_05.png -> image_06.png | LPIPS Distance: 0.3716
+[Transizione 07] image_06.png -> image_07.png | LPIPS Distance: 0.3730
+[Transizione 08] image_07.png -> image_08.png | LPIPS Distance: 0.3375
+[Transizione 09] image_08.png -> image_09.png | LPIPS Distance: 0.3092
+[Transizione 10] image_09.png -> image_10.png | LPIPS Distance: 0.2498
+[Transizione 11] image_10.png -> image_11.png | LPIPS Distance: 0.2862
+[Transizione 12] image_11.png -> image_12.png | LPIPS Distance: 0.2440
+[Transizione 13] image_12.png -> image_13.png | LPIPS Distance: 0.2677
+[Transizione 14] image_13.png -> image_14.png | LPIPS Distance: 0.2591
+[Transizione 15] image_14.png -> image_15.png | LPIPS Distance: 0.3164
+[Transizione 16] image_15.png -> image_16.png | LPIPS Distance: 0.2605
+[Transizione 17] image_16.png -> image_17.png | LPIPS Distance: 0.3190
+[Transizione 18] image_17.png -> image_18.png | LPIPS Distance: 0.2983
+[Transizione 19] image_18.png -> image_19.png | LPIPS Distance: 0.2506
+
+======================================================================
+DISTANZA LPIPS MEDIA (Coerenza Visiva): 0.3330 (Basata su 19 transizioni)
+======================================================================

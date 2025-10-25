@@ -1,0 +1,9 @@
+[1/5] File: image_00.png | Prompt: "In olden times when wishing still helped..." | CLIP Score: 0.2590
+[2/5] File: image_01.png | Prompt: "plaything up again?" "Whatever you will ..." | CLIP Score: 0.2281
+[3/5] File: image_02.png | Prompt: "had seated herself at table with the kin..." | CLIP Score: 0.2755
+[4/5] File: image_03.png | Prompt: "the door, and the frog hopped in and fol..." | CLIP Score: 0.3162
+[5/5] File: image_04.png | Prompt: "down he was no frog but a king's son wit..." | CLIP Score: 0.2268
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.2612 (Basato su 5 risultati)
+======================================================================

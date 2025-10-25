@@ -1,0 +1,14 @@
+[1/10] File: image_00.png | Prompt: "In olden times when wishing still helped..." | CLIP Score: 0.2642
+[2/10] File: image_01.png | Prompt: "the ground beyond, and rolled straight i..." | CLIP Score: 0.2359
+[3/10] File: image_02.png | Prompt: "your plaything up again?" "Whatever you ..." | CLIP Score: 0.2449
+[4/10] File: image_03.png | Prompt: "to sit in the water with the other frogs..." | CLIP Score: 0.2844
+[5/10] File: image_04.png | Prompt: "when she had seated herself at table wit..." | CLIP Score: 0.2781
+[6/10] File: image_05.png | Prompt: "a frog want with you?" "Ah, dear father,..." | CLIP Score: 0.2583
+[7/10] File: image_06.png | Prompt: "went and opened the door, and the frog h..." | CLIP Score: 0.2241
+[8/10] File: image_07.png | Prompt: "and go to sleep." The king's daughter be..." | CLIP Score: 0.2817
+[9/10] File: image_08.png | Prompt: "But when he fell down he was no frog but..." | CLIP Score: 0.2785
+[10/10] File: image_09.png | Prompt: "burst with grief and sadness. The carria..." | CLIP Score: 0.2794
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.2630 (Basato su 10 risultati)
+======================================================================

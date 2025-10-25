@@ -1,0 +1,9 @@
+[1/5] File: image_00.png | Prompt: "A solitary, ancient wizard with a long g..." | CLIP Score: 0.3651
+[2/5] File: image_01.png | Prompt: "The wizard raises his left hand, and a s..." | CLIP Score: 0.2799
+[3/5] File: image_02.png | Prompt: "A sleek, black cat suddenly jumps onto t..." | CLIP Score: 0.3288
+[4/5] File: image_03.png | Prompt: "The wizard, startled by the cat's presen..." | CLIP Score: 0.3205
+[5/5] File: image_04.png | Prompt: "With a gentle sigh, the wizard carefully..." | CLIP Score: 0.3609
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.3311 (Basato su 5 risultati)
+======================================================================

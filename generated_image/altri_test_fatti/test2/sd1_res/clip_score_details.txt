@@ -1,0 +1,24 @@
+[1/20] File: image_00.png | Prompt: "In olden times when wishing still helped..." | CLIP Score: 0.2460
+[2/20] File: image_01.png | Prompt: "At this she began to cry, and cried loud..." | CLIP Score: 0.2472
+[3/20] File: image_02.png | Prompt: ""Ah, old water-splasher, is it you," she..." | CLIP Score: 0.2857
+[4/20] File: image_03.png | Prompt: "The frog answered, "I do not care for yo..." | CLIP Score: 0.2696
+[5/20] File: image_04.png | Prompt: "All he does is to sit in the water with ..." | CLIP Score: 0.3064
+[6/20] File: image_05.png | Prompt: "The king's daughter was delighted to see..." | CLIP Score: 0.2777
+[7/20] File: image_06.png | Prompt: "I can't run as you can." But what did it..." | CLIP Score: 0.2756
+[8/20] File: image_07.png | Prompt: "The next day when she had seated herself..." | CLIP Score: 0.2339
+[9/20] File: image_08.png | Prompt: "The king saw plainly that her heart was ..." | CLIP Score: 0.2312
+[10/20] File: image_09.png | Prompt: ""It is no giant but a disgusting frog." ..." | CLIP Score: 0.2594
+[11/20] File: image_10.png | Prompt: "And because I cried so, the frog brought..." | CLIP Score: 0.2436
+[12/20] File: image_11.png | Prompt: "Princess, youngest princess,  open the d..." | CLIP Score: 0.2138
+[13/20] File: image_12.png | Prompt: "She went and opened the door, and the fr..." | CLIP Score: 0.2289
+[14/20] File: image_13.png | Prompt: "Once the frog was on the chair he wanted..." | CLIP Score: 0.1964
+[15/20] File: image_14.png | Prompt: "At length he said, "I have eaten and am ..." | CLIP Score: 0.2624
+[16/20] File: image_15.png | Prompt: "So she took hold of the frog with two fi..." | CLIP Score: 0.2451
+[17/20] File: image_16.png | Prompt: "But when he fell down he was no frog but..." | CLIP Score: 0.2728
+[18/20] File: image_17.png | Prompt: "Then they went to sleep, and next mornin..." | CLIP Score: 0.2318
+[19/20] File: image_18.png | Prompt: "Faithful Henry helped them both in, and ..." | CLIP Score: 0.2217
+[20/20] File: image_19.png | Prompt: ""No, master, it is not the carriage. It ..." | CLIP Score: 0.2127
+
+======================================================================
+PUNTEGGIO CLIP MEDIO FINALE (Coerenza Testuale): 0.2481 (Basato su 20 risultati)
+======================================================================

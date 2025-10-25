@@ -1,0 +1,13 @@
+[Transizione 01] image_00.png -> image_01.png | LPIPS Distance: 0.4330
+[Transizione 02] image_01.png -> image_02.png | LPIPS Distance: 0.6003
+[Transizione 03] image_02.png -> image_03.png | LPIPS Distance: 0.3892
+[Transizione 04] image_03.png -> image_04.png | LPIPS Distance: 0.3654
+[Transizione 05] image_04.png -> image_05.png | LPIPS Distance: 0.3316
+[Transizione 06] image_05.png -> image_06.png | LPIPS Distance: 0.3310
+[Transizione 07] image_06.png -> image_07.png | LPIPS Distance: 0.2782
+[Transizione 08] image_07.png -> image_08.png | LPIPS Distance: 0.3119
+[Transizione 09] image_08.png -> image_09.png | LPIPS Distance: 0.3152
+
+======================================================================
+DISTANZA LPIPS MEDIA (Coerenza Visiva): 0.3729 (Basata su 9 transizioni)
+======================================================================
