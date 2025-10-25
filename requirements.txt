@@ -1,0 +1,138 @@
+### COMANDI E REQUISITI DI INSTALLAZIONE (ESTRATTI DALLA GUIDA) ###
+
+--- PC LOCALE (Linux/macOS) - CONFIGURAZIONE SSH/STEP ---
+
+# Bootstrap Smallstep CA
+step ca bootstrap --ca-url=https://sshproxy.hpc.cineca.it --fingerprint 2ae1543202304d3f434bdc1a2c92eff2cd2b02110206ef06317e70c1c1735ecd
+
+# Attivazione SSH Agent
+eval $(ssh-agent)
+
+# Ottenere il certificato (apre il browser per OTP)
+step ssh login '<user-email>' --provisioner cineca-hpc
+
+# Accesso al cluster
+ssh usernameCluster@login.leonardo.cineca.it
+
+# Per eliminare le host key non valide (in caso di errore)
+sudo nano -w /home/user/.ssh/known_hosts
+
+
+--- PC LOCALE (Windows/PowerShell) - CONFIGURAZIONE SSH/STEP ---
+
+# Installare scoop (eseguito come amministratore)
+iwr -useb get.scoop.sh | iex
+
+# Installare git
+scoop install git
+
+# Installare smallstep
+scoop bucket add smallstep https://github.com/smallstep/scoop -bucket .git
+scoop install smallstep/step
+
+# Configurazione di step client
+step ca bootstrap - -ca-url =https://sshproxy.hpc.cineca.it - -fingerprint 2ae1543202304d3f434bdc1a2c92eff2cd2b02110206ef06317e70c1c1735ecd
+
+# Attivazione di ssh-agent
+Get-Service -Name ssh-agent
+Start-Service -Name ssh-agent
+
+# Ottenere il certificato (apre il browser per OTP)
+step ssh login <your -email > - -provisioner cineca -hpc
+
+# Accesso al cluster
+ssh usernameCluster@login.leonardo.cineca.it
+
+# Per eliminare le host key non valide (in caso di errore)
+Andare nella directory C:\Users\nomeutente\.ssh
+Eliminare il file presente o svuotare il contenuto
+
+
+--- CLUSTER LEONARDO - SETUP AMBIENTE E DEPENDENZE ---
+
+# Caricamento Moduli (dopo l'accesso)
+module load profile/deepIrn
+module av cineca-ai
+module load cineca-ai/3.0.1
+
+# Creazione Ambiente Virtuale
+python -m venv _env_ --system-site-packages
+source _env_/bin/activate
+deactivate
+
+# Installazione Librerie PyPI (pip)
+pip install –upgrade pip
+
+# PyTorch con supporto CUDA 11 (GPU)
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu11
+# Oppure per CUDA 12.1 (indicato nelle NOTE)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Librerie Stable Diffusion
+pip install diffusers transformers accelerate safetensors scipy numpy
+
+# Librerie Utilità e Metriche
+pip install Pillow lpips tqdm
+pip install nltk
+
+# Installazione NLTK data (dopo aver lanciato 'python')
+import nltk
+nltk.download('punkt_tab')
+# Oppure con percorso specifico
+nltk.download('punkt_tab', '/percorso/su/leonardo')
+exit()
+
+# Autenticazione Hugging Face (richiede token creato sul sito)
+huggingface-cli login
+# o in alternativa:
+hf auth login
+
+
+--- MODELLI E DOWNLOAD ---
+
+# Creazione directory modelli
+mkdir -p stable-diffusion/models
+cd stable-diffusion/models
+
+# Download Stable Diffusion 1.5 (ckpt)
+wget https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt
+
+# Download VAE Refinement
+wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
+# Oppure la versione ckpt
+wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
+
+# Download AlexNet per LPIPS
+wget https://download.pytorch.org/models/alexnet-owt-7be5be79.pth
+
+# Download Stable Diffusion XL (SDXL) - DA ESEGUIRE SU PC LOCALE
+pip install hf_xet
+pip install huggingface_hub
+# Eseguire script python con: snapshot_download(repo_id="stabilityai/stable-diffusion-xl-base-1.0", ...)
+
+
+--- TRASFERIMENTO FILE (SCP) ---
+
+# Trasferimento generico dal PC al cluster (file.txt)
+scp file.txt remote_username@IP:/remote/directory
+
+# Trasferimento file PNG dal cluster al PC locale
+scp nomeutente@login.leonardo.cineca.it:~/stable-diffusion/generated_image.png .
+
+# Trasferimento cartella SDXL dal PC locale al cluster
+scp -r C:\Users\mariorossi\Downloads\SDXL_COMPLETE_MODEL mariorossi@login.leonardo.cineca.it:~/cartella/di/interesse/in/cineca
+
+
+--- ESECUZIONE (SLURM) ---
+
+# Avviare il job SLURM (con script sd_generate.sh creato in precedenza)
+sbatch file.sh
+
+# Controllare lo stato del job (usando il proprio username)
+squeue -u mario_rossi
+
+# Per controllare lo stato delle partizioni
+sinfo
+
+# Per controllare la quota utilizzata e disponibile su Cineca
+cinQuota
